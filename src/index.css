@@ -47,9 +47,9 @@ main {
 }
 
 /* heroimage-animation */
-/* .img-animation {
+.img-animation {
   animation: wiggle 2s linear infinite;
-} */
+}
 
 @keyframes wiggle {
 

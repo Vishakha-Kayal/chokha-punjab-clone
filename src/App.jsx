@@ -30,7 +30,7 @@ function App() {
         <Punjabigirl />
         <Menu />
         <Dhol />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </main>
     </>
   );
