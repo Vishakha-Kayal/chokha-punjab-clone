@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+ 
 }
 
 html,
@@ -22,6 +22,7 @@ body {
   height: 100%;
   font-size: 62.5%;
   /*100%=16px ,1px=6.25%*/
+  overflow-x: hidden;
 }
 
 main {
