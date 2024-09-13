@@ -107,3 +107,12 @@ main {
 .menu-box:hover .menuimage{
   animation: wiggle 2s linear infinite;
 }
+
+.testimonial{
+  margin-bottom: 9rem;
+  margin-top: 5rem;
+}
+
+.margin{
+  margin-bottom: 2rem;
+}

@@ -1,6 +1,7 @@
 import logo from '../assets/logo.png'
 import Button from '../components/Button'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link } from 'react-router-dom'
+// import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -10,12 +11,12 @@ const Navbar = () => {
         <img src={logo} alt="" className='h-[11vh]'/>
     </div>
     <ul className="w-[80%] text-[1.7rem] font-['Actor'] px-2 flex items-center gap-[4rem]">
-        <li>Home</li>
+        <li><Link to="/">Home</Link></li>
         <li>About</li>
         <li>Menu</li>
         <li>Gallery</li>
         <li>Activities</li>
-        <li>Blogs</li>
+        <li><Link to="/news">Blogs</Link></li>
         <li>
             <Button name="Offers"/>
         </li>
